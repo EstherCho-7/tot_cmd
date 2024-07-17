@@ -1,6 +1,6 @@
 [project]
 name = "tot_cmd"
-version = "0.3.3"
+version = "0.3.4"
 description = "Default template for PDM package"
 authors = [
     {name = "EstherCho-7", email = "dkgkqm777@gmail.com"},
