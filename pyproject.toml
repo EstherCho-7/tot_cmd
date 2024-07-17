@@ -1,6 +1,6 @@
 [project]
 name = "tot_cmd"
-version = "0.3.7"
+version = "0.3.8"
 description = "Default template for PDM package"
 authors = [
     {name = "EstherCho-7", email = "dkgkqm777@gmail.com"},
@@ -13,6 +13,11 @@ dependencies = [
 requires-python = ">=3.9"
 readme = "README.md"
 license = {text = "MIT"}
+
+[project.scripts]
+tot_plus='tot_cmd.cmd:call_plus'
+tot_minus='tot_cmd.cmd:call_minus'
+tot_multi='tot_cmd.cmd:call_multi'
 
 [tool.pdm]
 distribution = true
