@@ -1,12 +1,12 @@
 [project]
 name = "tot_cmd"
-version = "0.3.4"
+version = "0.3.5"
 description = "Default template for PDM package"
 authors = [
     {name = "EstherCho-7", email = "dkgkqm777@gmail.com"},
 ]
 dependencies = [
-	'tot_plus>=0.1.1',
+	'tot_plus>=0.2.1',
 	'tot_minus>=0.1.3',
 	'tot_multi>=0.1.1'
 ]
